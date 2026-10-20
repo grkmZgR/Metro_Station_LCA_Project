@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code personal settings
+.vscode/
+
+# Temporary files
+*.tmp
+~$*.xlsx
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Large local data (if needed)
+data/local/
