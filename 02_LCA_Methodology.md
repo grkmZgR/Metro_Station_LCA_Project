@@ -93,3 +93,77 @@ Each model input will be classified as:
 - **Assumed:** Simplifying parameters used when measured data are unavailable.
 
 Each calculation will retain its source reference, unit, assumption, and applicable life-cycle module.
+
+## 5. Applicable Standards
+
+The methodological framework of this study is informed by:
+
+- **ISO 14040:** Principles and framework for Life Cycle Assessment, including goal and scope definition, inventory analysis, impact assessment, and interpretation.
+- **ISO 14044:** Requirements and guidelines for data quality, methodological consistency, interpretation, and reporting.
+- **EN 15804+A2:** Environmental Product Declaration framework for construction products and relevant life-cycle modules.
+
+The study adopts these principles but does not claim third-party verification or formal certification of standards compliance.
+
+## 6. EPD Selection and Comparability
+
+Environmental Product Declarations will be selected according to the following criteria:
+
+1. A valid, third-party-verified EPD is preferred.
+2. Compliance with EN 15804+A2 is preferred for consistent environmental indicators.
+3. A1–A3 GWP-total results must be available.
+4. Declared units and product specifications must be identifiable.
+5. Compared materials must provide equivalent assumed technical functionality.
+6. Geographic, technological, and temporal representativeness must be documented.
+7. Any limitations affecting comparability must be disclosed.
+
+EPD information will be collected primarily from EPD Danmark.
+
+## 7. Carbon Calculation Methodology
+
+### 7.1 Product Stage (A1–A3)
+
+GWP_A1A3 = Sum(Material Quantity × Product Emission Factor)
+
+Material quantities will be converted into the EPD declared units before calculation.
+
+### 7.2 Transportation Stage (A4)
+
+GWP_A4 = Sum(Material Mass × Transport Distance × Transport Emission Factor)
+
+Transport emissions will use consistent tonne-kilometre assumptions, accounting for the emission factor's stated transport scope.
+
+### 7.3 Construction Stage (A5)
+
+GWP_A5 = On-site Energy Emissions + Installation Loss Emissions + Construction Waste Emissions
+
+Material losses and additional production requirements will be modeled consistently to prevent double counting.
+
+### 7.4 Total Construction-Stage Emissions
+
+GWP_Total = GWP_A1A3 + GWP_A4 + GWP_A5
+
+All results will initially be calculated in kgCO₂e and subsequently converted into tCO₂e for reporting.
+
+## 8. Data Quality and Validation
+
+The following checks will be applied:
+
+- Unit consistency and conversion validation.
+- Verification of EPD declared units and GWP indicators.
+- Identification of missing data and proxy assumptions.
+- Documentation of source references and EPD validity periods.
+- Prevention of double counting across life-cycle modules.
+- Sensitivity analysis of uncertain emission factors and transportation assumptions.
+- Consistency checks between baseline and alternative scenarios.
+
+## 9. Interpretation and Reporting
+
+The analysis will evaluate:
+
+- Total A1–A5 greenhouse gas emissions.
+- Emission contributions by material and construction process.
+- Relative carbon reductions across design scenarios.
+- Estimated cost–carbon trade-offs.
+- Sensitivity to data uncertainty and modeling assumptions.
+
+Results will be interpreted as comparative estimates for a hypothetical case study, not as verified emissions for an existing or planned Metroselskabet station.
