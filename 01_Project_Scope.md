@@ -55,3 +55,79 @@ The challenge is to quantify baseline emissions, identify major emission sources
 - Operational emissions and end-of-life stages are excluded from the primary assessment.
 - Cost estimates will depend on data availability and stated assumptions.
 - Results are intended for comparative analysis rather than verified project-level environmental reporting.
+
+## 8. Functional Unit and Reference Flow
+
+### 8.1 Functional Unit
+
+The functional unit is defined as the provision of one hypothetical underground metro station in Copenhagen, designed to provide equivalent station functionality over a 60-year reference study period.
+
+The assessment focuses exclusively on construction-related greenhouse gas emissions within modules A1–A5.
+
+### 8.2 Reference Geometry
+
+| Parameter | Assumed Value | Unit |
+|---|---:|---|
+| Station Length | 100 | m |
+| Station Width | 20 | m |
+| Structural Height | 15 | m |
+| Plan Area | 2,000 | m² |
+| Reference Study Period | 60 | years |
+
+These dimensions are hypothetical and are used solely for educational and comparative assessment purposes.
+
+### 8.3 Included Construction Elements
+
+- Reinforced concrete foundation/base slab
+- Reinforced concrete external walls
+- Reinforced concrete roof slab
+- Selected internal structural elements
+- Simplified excavation and construction activities
+- Transportation of selected construction materials
+
+### 8.4 Excluded Elements
+
+- Architectural finishes and non-structural installations
+- Mechanical, electrical, and plumbing systems
+- Escalators and elevators
+- Railway tracks and signalling equipment
+- Station operation and maintenance
+- End-of-life activities
+
+### 8.5 Reference Flow
+
+The reference flow will be quantified using a synthetic Bill of Quantities (BoQ) consisting of:
+
+- Concrete volumes (m³), by structural element
+- Reinforcing steel quantities (kg or tonnes)
+- Excavation volumes (m³)
+- Construction machinery fuel/energy consumption
+- Material transportation requirements (tonne-km)
+
+The detailed BoQ will be developed during the data preparation phase.
+
+### 8.6 Comparability Assumptions
+
+All material scenarios will be assessed using:
+
+- Identical station geometry and functional requirements
+- Equivalent assumed structural performance
+- Consistent system boundaries (A1–A5)
+- Consistent environmental impact indicators
+- Documented emission factors and data sources
+
+Material substitutions will be treated as scenario assumptions rather than verified engineering solutions.
+
+### 8.7 Reporting Basis
+
+Results will be expressed primarily in:
+
+- Total greenhouse gas emissions (tCO₂e)
+- Emissions by life-cycle module (A1–A5)
+- Emissions by construction material
+- Carbon reduction relative to the baseline (%)
+- Construction emissions per station plan area (kgCO₂e/m²)
+
+The kgCO₂e/m² indicator will be supplementary and will not replace the primary station-level reporting basis.
+
+Results will not be presented as the complete life-cycle carbon footprint of an operational metro station.
